@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sweet Scoops Ice Cream</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #fff0f5;
+      color: #333;
+    }
+
+    header {
+      background: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 15px;
+    }
+
+    .flavors {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .flavor-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(255, 111, 145, 0.3);
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .flavor-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(255, 111, 145, 0.5);
+    }
+
+    .flavor-card img {
+      width: 100%;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .flavor-card h3 {
+      margin: 15px 0 10px;
+      color: #ff6f91;
+      font-size: 1.5rem;
+    }
+
+    .flavor-card p {
+      padding: 0 15px 20px;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    footer {
+      background: #ff6f91;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: 50px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 700px) {
+      .flavors {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Sweet Scoops Ice Cream
+  </header>
+
+  <div class="container">
+    <div class="flavors">
+      <div class="flavor-card">
+        <img src="i2.jpg" alt="Strawberry Ice Cream" />
+        <h3>Strawberry Bliss</h3>
+        <p>Fresh strawberries blended into creamy, dreamy ice cream.</p>
+      </div>
+
+      <div class="flavor-card">
+        <img src="i1.jpg" alt="Chocolate Ice Cream" />
+        <h3>Chocolate Dream</h3>
+        <p>Rich, velvety chocolate made from premium cocoa beans.</p>
+      </div>
+
+      <div class="flavor-card">
+        <img src="i4.jpg" alt="Mint Ice Cream" />
+        <h3>Mango Fresh</h3>
+        <p>Refreshing mint ice cream with crunchy chocolate chips.</p>
+      </div>
+
+      <div class="flavor-card">
+        <img src="i3.jpeg" alt="Vanilla Ice Cream" />
+        <h3>Classic Vanilla</h3>
+        <p>Smooth vanilla ice cream made with real vanilla beans.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Sweet Scoops Ice Cream. All rights reserved.
+  </footer>
+
+</body>
+</html>
